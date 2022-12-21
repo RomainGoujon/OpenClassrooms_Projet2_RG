@@ -1,0 +1,119 @@
+/* CSS pour tablette */
+
+@media screen and (max-width: 992px)
+{
+   
+    /* Style header */
+
+    header 
+    {
+    width: auto;
+    padding: 44px 0px 44px 70px;
+    }
+
+    a:hover
+    {
+    border-top: none;
+    color: black;
+    }
+
+    /* fin header */
+
+    /* main */
+
+    main 
+    {
+    margin: 0 72px;
+    }
+
+    /* Sections filtres */
+
+    p 
+    {
+    padding-top: 10px;
+    }
+
+    /* Filtres */
+
+    .filtres
+    {
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+
+    .filtre-catégorie
+    {
+    padding: 0px 10px;
+    }
+
+    .filtre-catégorie:hover 
+    {
+    background-color: #FFFFFF;
+    }
+
+    /* Hébergements + populaires */
+    
+    .Hébergements-Populaires
+    {
+     display: flex;
+     flex-direction: column;
+    }
+
+    .hébergements
+    {
+    padding: 40px 40px 0 40px;
+    }
+
+    .texte-étoiles-hébergements
+    {
+        height: 40px;
+    }
+
+    .populaires
+    {
+    width: 90%;
+    height: 278px;
+    padding: 0px 40px 40px 40px;
+    margin-left: 0;
+    }
+
+    .titre-icone
+    {
+    width: 110%; 
+    }
+
+    .carte-populaires 
+    {
+    width: 252px;
+    }
+
+    .grid-populaires
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 145px;
+    gap: 2rem;
+    }
+
+    .texte-carte-populaires
+    {
+    padding: 0px 22px 30px;
+    }
+
+
+    /* Activités à Marseille */
+
+    .activité-légende
+    {
+    width: 182px;
+    height: 267px;
+    }
+
+    .activités
+    {
+    gap: 50px;
+    }
+
+
+}
+

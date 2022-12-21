@@ -1,0 +1,214 @@
+/* CSS pour portable */
+
+@media screen and (max-width: 767px)
+{
+
+    /* Style header */
+
+    header
+    {
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding: 0px 0px;
+    padding-top: 20px;
+    }
+
+    header img
+    {
+    margin: auto;
+    padding-bottom: 50px;
+    }
+
+    .HeaderNav:hover
+    {
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 23px;
+    }
+
+    /* fin header */
+
+    /* main */
+
+    main
+    {
+    margin-left: 20px;
+    margin-right: auto;
+    }
+
+    /* Section filtres */
+
+    /* Barre de recherche */
+
+    .Recherche
+    {
+    margin: 20px;
+    }
+
+    .input-recherche
+    {
+    font-size: 18px;
+    }
+
+    .submit-recherche
+    {
+    visibility: hidden;
+    font-size: 1px;
+    }
+
+    .icone-recherche
+    {
+    visibility: visible;
+    font-size: 17px;
+    }
+
+    /* Filtres */
+
+    .filtres h2
+    {
+    width: 100%;
+    padding-bottom: 5px;
+    }
+
+    .filtres
+    {
+    margin-top: 0px;
+    gap: 15px;
+    }
+
+    .filtre-catégorie 
+    {
+    margin-bottom: 0px;
+    width: 160px;
+    }
+
+    .filtres p 
+    {
+    font-size: 11px;
+    padding-bottom: 10px;
+    }
+
+    .icone
+    {
+    font-size: 15px;
+    }
+
+    /* Barre info */
+
+    .info
+    {
+    margin-top: 25px;
+    margin-right: 22px;
+    }
+
+    /* Hébergements + populaires */
+
+    .Hébergements-Populaires 
+    {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    }
+
+    .titre-icone
+    {
+    width: 78%;
+    }
+
+    .populaires
+    {
+    width: 100%;
+    height: 580px;
+    margin-left: 0px;
+    margin-top: 17px;
+    padding-top: 28px;
+    }
+
+    .carte-populaires
+    {
+    width: 78%;
+    }
+
+    .grid-populaires
+    {
+    grid-template-columns: 1fr;
+    grid-template-rows: 145px 145px 145px;
+    }
+
+    .hébergements,
+    .populaires
+    {
+    padding: 10px;
+    }
+
+    .hébergements
+    {
+    width: 100%;
+    height: 1410px;
+    }
+
+    .carte-hébergements
+    {
+    width: 80%;
+    box-shadow: none;
+    }
+
+    .grid-hébergements 
+    {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    }
+
+    .afficher-plus
+    {
+    visibility: hidden;
+    }
+
+    /* Activités à Marseille */
+
+    .Section-Activités
+    {
+    margin-top: 40px;
+    }
+
+    .Section-Activités h2
+    {
+    margin-left: 22px; 
+    }
+
+    .activité-légende
+    {
+    width: 85%;
+    height: 190px;
+    }
+
+    .activités
+    {
+    grid-template-columns: 1fr;
+    grid-template-rows: 190px 190px 190px 190px;
+    margin-left: 20px;
+    margin-right: 22px;
+    }
+
+    /* Fin main */
+
+    /* Footer */
+
+    footer
+    {
+    height: 501px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px;
+    margin-top: 80px;
+    padding-left: 33px;
+    }
+
+    .liste
+    {
+    margin-left: 0px;
+    margin-top: 40px;
+    }
+
+}

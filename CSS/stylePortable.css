@@ -8,22 +8,33 @@
     header
     {
     flex-direction: column;
-    padding-bottom: 20px;
-    padding: 0px 0px;
-    padding-top: 20px;
+    padding: 20px 0 0 0;
     }
 
     header img
     {
     margin: auto;
-    padding-bottom: 50px;
+    }
+
+    nav
+    {
+    text-align: center;
+    width: 100%;
+    }
+
+    .HeaderNav
+    {
+    margin: auto;
+    text-align: center;
+    width: 50%;
     }
 
     .HeaderNav:hover
     {
     border-top: none;
     border-bottom: 3px solid #0065FC;
-    padding-bottom: 23px;
+    padding-bottom: 25px;
+    width: 50%;
     }
 
     /* fin header */

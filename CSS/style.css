@@ -3,6 +3,7 @@
 * 
 {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body
@@ -11,18 +12,20 @@ body
     font-size: 1em;
     background-color: #FFFFFF;
     max-width: 1400px;
+    margin: auto;
 }
 
 /* Style header */
 
 header 
 {
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 50px;
 }
 
 header img
@@ -31,13 +34,21 @@ header img
     width: 60px;
 }
 
+nav
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+}
+
 .HeaderNav 
 {
-    padding-left: 60px;
     text-decoration: none;
     color: black;
     font-size: 16px;
-    padding: 30px;
+    padding: 2rem;
 }
 
 .HeaderNav:hover
@@ -51,9 +62,9 @@ header img
 
 /* main */
 
-main 
+main
 {
-    margin: 0 50px;
+    margin-left: 30px;
 }
 
 /* Sections filtres */
@@ -80,8 +91,11 @@ p
 
 .boutton-localisation
 {
-    margin-right: 5px;
+    padding: 13px;
     font-size: 20px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .input-recherche 
@@ -128,7 +142,7 @@ p
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px; 
+    gap: 30px; 
     font-size: 18px;
     margin-top: 40px;
 }
@@ -227,15 +241,14 @@ section a
 
 .hébergements
 {
-    width: 57%;
-    height: 626px;
+    width: 100%;
+    height: 100%;
 }
 
 .hébergements,
 .populaires
 {
     padding: 40px;
-    gap: 40px;
 }
 
 .texte-étoiles-hébergements
@@ -253,8 +266,8 @@ section a
     box-shadow: 0 0 16px grey;
     border: 5px solid #FFFFFF;
     border-radius: 20px;
-    width: 246px;
-    height:199px;
+    width: 100%;
+    height:100%;
 }
 
 .grid-hébergements img 
@@ -279,15 +292,15 @@ section a
 
 .populaires
 {
-    width: 30%;
-    height: 625px;
-    margin-left: 40px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
 }
 
 
 .titre-icone
 {
-    width: 250%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -311,8 +324,8 @@ section a
     box-shadow: 0 0 16px grey;
     border: 5px solid #FFFFFF;
     border-radius: 20px;
-    width: 343px;
-    height: 145px;
+    width: 100%;
+    height: 100%;
 }
 
 .grid-populaires img 
@@ -356,8 +369,8 @@ section a
 
 .activité-légende
 {
-    width: 302px;
-    height: 445px;
+    width: 95%;
+    height: 100%;
 }
 
 .activité-légende img

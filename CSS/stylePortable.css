@@ -27,14 +27,20 @@
     margin: auto;
     text-align: center;
     width: 50%;
+    border-bottom: 3px solid #5A5A5A;
     }
 
     .HeaderNav:hover
     {
     border-top: none;
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 25px;
-    width: 50%;
+    color: black;
+    padding: 2rem;
+    }
+
+    .HeaderNav:active
+    {
+    color: #0065FC;
+    border-color: #0065FC;
     }
 
     /* fin header */
